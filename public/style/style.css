@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.vie {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+} 
+
+.format {
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.send {
+    width: 150px;
+    margin: 30px auto;
+    text-align: center;
+    display: block;
+    background-color: rgb(171, 171, 206);
+    border-radius: 5px;
+}
+
+.admin {
+    width: 250px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(180, 223, 149);
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.sizepape {
+    font-weight: bolder;
+}

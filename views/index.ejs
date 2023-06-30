@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <h2>PHOTO for Print</h2>
+        <div class="vie">
+            <div class="format"></div>
+            <div class="sel">
+                <h3>Вибір формату для подачі на принтер</h3>
+                <form method="get">
+                    <input type="radio" name="group" id="A3" checked value="A3">A3
+                    <br>
+                    <input type="radio" name="group" id="A4"value="A4">A4
+                    <br>
+                    <input type="radio" name="group" id="A5"value="A5">A5
+                    <br>
+                    <input type="radio" name="group" id="A6" value="A6">A6
+                    <br>
+                    <input type="radio" name="group" id="A7" value="A7">A7
+                    <br>
+                    <br>
+                    <input type="text" name="nameUser" id="text" placeholder="Вкажіть ваше ім'я">
+                    <br>
+                    <br>
+                    <input type="tel" name="telethonUser" placeholder="Введіть номер телефону" id="telethon">
+                    <br>
+                    <br>
+                    <input type="email" name="email" placeholder="Введіть ваш email">
+                    <input type="submit" value="Відправити" class="send">
+                </form>
+            </div>
+        </div>
+        <a href="/admin" target="_blank" class="admin" >Перейти до адмін сторінки</a>
+    </div>
+
+
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
